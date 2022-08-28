@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(63, 61, 133);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+}
+
+.navBar{
+    text-align: center;
+    background-color: grey;
+    padding: 3px;
+    color: white;
+    font-weight: 700;
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    margin-bottom:auto;
+    border-bottom: solid black 1px;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 3px;
+    color: antiquewhite;
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    margin-top:auto;
+    border-top: solid black 1px;
+}
+
+.container {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    flex: 2 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calculator{
+    min-width: 60vh;
+    border: solid black 3px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.button-section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.numbers{
+    max-width: 30vh;
+}
+
+.operators{
+    max-width: 20vh;
+    margin-left: auto;
+}
+
+.btn-operator{
+    margin: 2px;
+    font-size: xx-large;
+}
+
+.display{
+    width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+input{
+    width: 100%;
+    font-size: larger;
+    flex-grow: 1;
+}
